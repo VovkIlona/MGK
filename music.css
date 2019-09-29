@@ -1,0 +1,123 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #FFF;
+	background: #000;
+	letter-spacing: 0.08em
+}
+a {
+	text-decoration: none;
+	color: #FFF;
+	transition: all .5s ease;
+} 
+ul li {
+	display: block;
+}
+.align-items-center{
+	align-items: center;
+}
+.d-flex {
+	display: flex;
+}
+.logo {
+	margin-right: 210px;
+}
+.menu_item {
+	margin-right: 20px;	
+}
+.menu_item a {
+	font-weight: 400;
+	font-size: 12px;
+}
+.menu_item:hover, a:hover {
+	color: #CC9EFA;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+    min-width: 90px;
+}
+.dropdown-content a {
+    color: #000;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+	background-color: #F0F0F0;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.header {
+	height: 18vh;
+}
+.container {
+	margin: 0 auto;
+	width: 87%;
+	margin-top: 7px;
+}
+.flex {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+.music_title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	margin: 50px 0 60px 110px;
+}
+.music_item {
+	position: absolute;
+	background-color: rgba(0, 0, 0, .9);
+	color: #AA3EFD;
+	text-align: center;
+	padding-top: 130px;
+	opacity: 0;
+	transition: all .5s;
+	width: 250px;
+	height: 260px;
+	border: 0.8px solid #AA3EFD;
+	margin-bottom: 100px;
+}
+.song_name {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 5px
+}
+.release {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #969595;
+	line-height: 22px;
+}
+.music li {
+	display: inline-block;
+	position: relative;
+	width: 250px;
+	height: 390px;
+	border: 0.8px solid #AA3EFD;
+	margin-bottom: 90px;
+	margin-left: 70px
+}
+.music li:hover, .music_item:hover {
+	opacity: 1;
+}
+footer {
+	font-family: 'Montserrat'; 
+	text-align: center;
+	font-size: 8px;
+	margin-bottom: 30px;
+	letter-spacing: 1px
+}
