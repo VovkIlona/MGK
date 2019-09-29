@@ -1,0 +1,307 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #FFF;
+	background: #000;
+	letter-spacing: 0.08em
+}
+a, a:hover, .read_more:hover {
+	text-decoration: none;
+	color: #FFF;
+	transition: all .5s ease;
+}
+ul, li{
+	display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	transition: all .5s ease;
+}
+.align-items-center{
+	align-items: center;
+}
+.d-flex {
+	display: flex;
+}
+.logo {
+	margin-right: 210px;
+}
+.menu_item {
+	margin-right: 20px;	
+}
+.menu_item a {
+	font-weight: 400;
+	font-size: 12px;
+}
+.menu_item, a:hover, .read_more:hover {
+	color: #CC9EFA;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: #FFF;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #000;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/*.auth_name {
+	font-weight: 400;
+	font-size: 11px;
+	margin-left: 10px;
+}
+.auth_img {
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+    border: 0.7px solid #8A78EB;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 240px
+}*/
+.header {
+	height: 18vh;
+}
+.content {
+	height: 85vh;
+}
+.container {
+	margin: 0 auto;
+	width: 87%;
+	position: relative;
+	margin-top: 7px;
+	margin-bottom: 45px;
+}
+.mgk {
+	height: 498px;
+	width: 1080px;
+	background: #2A2A2A; 
+	position: absolute;
+}
+.mgk_img1 {
+	margin-left: 5px;
+}
+.mgk_tittle {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 78px;
+	font-weight: 700;
+	letter-spacing: 7px;
+	margin-top: -280px;
+	margin-left: 132px;
+	color: rgba(255,255,255,0.7);
+	transition:.5s ease; 
+}
+.hotel_img {
+	margin-left: 825px;
+	margin-top: -502px
+}
+.ok_img {
+	margin-left: 825px;
+	margin-top: -7px
+}
+.news_rect {
+	height: 498px;
+	width: 250px;
+	margin-left: 610px;
+	background: #303030;
+	margin-top: -502px
+}
+.news_tittle {
+	font-weight: 400;
+	color: #C284FF;
+	font-size: 9px; 
+	letter-spacing: 1px;
+	margin-left: 645px;
+	margin-top: -455px;
+	line-height: 12px
+}
+h2 {
+	font-weight: 700;
+	font-size: 19px;
+	letter-spacing: 2px;
+	margin-left: 150px;
+	margin-top: 150px;
+	margin-bottom: 70px
+}
+.news_text{
+	font-weight: 400;
+	color: #BAB9B9;
+	font-size: 10px;
+	letter-spacing: 1px;
+	line-height: 13px;
+	margin-left: 620px;
+	margin-top: 10px
+}
+.read_more {
+	margin-left: 700px;
+	font-size: 8px;
+	cursor: pointer;
+}
+footer {
+	font-family: 'Montserrat'; 
+	text-align: center;
+	font-size: 8px;
+	margin-top: 90px;
+	margin-bottom: 30px;
+	letter-spacing: 1px
+}
+/*.concert {
+	font-family: 'Montserrat', sans-serif;
+	color: #C663FF;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 19px;
+	margin-left: 80px;
+	margin-top: 60px;
+	line-height: 20px;
+}
+.concert_date {
+	font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+	margin-left: 140px;
+	line-height: 20px;
+	margin-top: -118px;
+	margin-bottom: 30px;
+	font-size: 18px
+}
+iframe {
+	margin-left: 150px;
+	margin-bottom: 60px;
+}
+.button_buy {
+	box-shadow: 7px 3px 15px 5px #AB0AFF;
+	background-color:#9903EF;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	margin-left: 450px;
+	font-size:17px;
+	padding: 18px 50px;
+	text-decoration:none;
+	margin-bottom: 100px
+}
+.button_buy:hover, .button_send:hover {
+	background-color: #AE00F6;
+}
+.button_buy:active, .button_send:active {
+	position:relative;
+	top:1px;
+}
+.appeal_form {
+	margin-left: 160px;
+	margin-top: 50px;
+	border-radius: 25px
+}
+.rect {
+	width: 500px;
+	height: 100px;
+	background: #232222;
+	margin-left: 160px;
+	margin-top: 50px;
+	border-radius: 25px
+}
+input {
+	font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    height: 100px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+    color: #BABABA
+}
+.button_send {
+	box-shadow: 5px 3px 10px 3px #AB0AFF;
+	background-color:#9903EF;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	margin-left: 690px;
+	font-size:15px;
+	padding: 9px 21px;
+	text-decoration:none;
+	margin-bottom: 100px
+}*/
+.mgk_img2 {
+	margin-left: 580px; 
+	margin-top: 100px; 
+	margin-bottom: 30px
+}
+.bio {
+	height: 53vh;
+	background: #101010;
+	width: 81%;
+	margin-left: 110px;
+	margin-top: -370px;
+}
+.bio_text {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	line-height: 30px;
+	margin-left: 77px
+}
+.bio_mgk {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin-left: 80px;
+	color: #AA3EFD;
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+.diablo {
+	margin-left: 110px; 
+	margin-top: 100px; 
+	margin-bottom: 30px
+}
+.album_text {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	line-height: 30px;
+	margin-left: 477px
+}
+.album {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin-left: 530px;
+	color: #AA3EFD;
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+
+
