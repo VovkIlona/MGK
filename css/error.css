@@ -1,0 +1,13 @@
+header {
+	background: #000;
+	height: 650px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.08em;
+}
+.error-cont__found {
+	color: #FFF;
+	
+}
+.error {
+	padding-top: 100px
+}
