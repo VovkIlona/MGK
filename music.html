@@ -1,113 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="cache.manifest">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/normalize.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
-	<title>MUSIC</title>
-	<link rel="stylesheet" href="music.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Machine Gun Kelly</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/music.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-	<section class="first">
-		<header> 
-			<nav class="container d-flex align-items-center">
-				<div class="logo">
-					LOGO
+<header>
+	<nav class="navbar navbar-expand-lg"> 
+	<a class="navbar-brand" style="color: white">LOGO</a>
+    <button class="navbar-toggler"data-toggle="collapse" data-target="#navbarNavDropdown">
+    <span class="btn">&#9776</span>
+    </button>
+   	 <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-5">
+            <li class="nav-item">
+                <a class="nav-link " href="index.html">MAIN</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="music.html">MUSIC</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="appeal.html">FANS APPEAL</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown">
+                    FOR FANS
+                </a>
+                <div class="dropdown-content" >
+                    <a class="dropdown-item" href="#">FAN CLUB</a>
+                    <a class="dropdown-item" href="schedule.html">TOUR SCHEDULE</a>
+                    <a class="dropdown-item" href="#">LYRICS</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="venue.html">CONCERT VENUE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="admin.html">ADMIN</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+</header>
+	<div class="music" style="background: black">
+		<div class="container">
+			<div class="row">
+				<div class="music-cont__title">
+					<h4>MUSIC</h4>
 				</div>
-				<ul class="menu d-flex">
-					<li class="menu_item">
-						<a href="index.html">MAIN</a>
-					</li>
-					<li class="menu_item">
-						<a href="music.html">MUSIC</a>
-					</li>
-					<li class="dropdown menu_item">
-						<a href="#">FOR FANS</a>
-						<div class="dropdown-content">
-                        <a href="#">FAN CLUB</a>
-                        <a href="#">TOUR SCHEDULE</a>
-                        <a href="#">LYRICS</a>
-					</li>
-					<li class="menu_item ">
-						<a href="#">FANS APPEAL</a>
-					</li>
-					<li class="menu_item">
-						<a href="#">CONCERT VENUE</a>
-					</li>
-					<sli class="menu_item">
-						<a href="#">ADMIN</a>
+				<ul>
+					<li><span class="music__item"></span><img src="img/diablo.jpg" alt="album" width="250" height="250">
+					<h2 class="song__name">
+						HOTEL DIABLO
+					</h2>  
+					<h5 class="release">
+     					Release Date:
+     					Friday, September 5, 2019
+					</h5>			
+		        	</li>
+					<li><span class="music_item"></span><img src="img/ok.jpg" alt="album" width="250" height="250">
+					<h2 class="song__name ">
+						I'M OKEY
+					</h2>  
+					<h5 class="release">
+     				Release Date:
+    				Friday, September 5, 2019
+					</h5>
+			    	</li>
+					<li><span class="music__item"></span><img src="img/break.jpg" alt="album" width="250" height="250">
+					<h2 class="song__name ">
+						BREAK UP
+					</h2>  
+					<h5 class="release" >
+     				Release Date:
+     				Friday, September 5, 2019
+					</h5>	
+			   		</li>
+					<li><span class="music__item"></span><img src="img/whore.jpg" alt="album" width="250" height="250">
+					<h2 class="song__name">
+						HOLLYWOOD WHORE
+					</h2>  
+					<h5 class="release">
+    				Release Date:
+     				Friday, September 5, 2019
+					</h5>
+					</li>		
+					<li><span class="music__item"></span><img src="img/home.jpg" alt="album" width="250" height="250">
+					<h2 class="song__name">
+						HOME
+					</h2>  
+					<h5 class="release">
+     				Release Date:
+     				Friday, September 5, 2019
+					</h5>		
+			    	</li>
+					<li><span class="music__item"></span><img src="img/young.jpg" alt="album" width="250" height="250">
+					<h3 class="song__name">
+						YOUNG MAN
+					</h3>  
+					<h5 class="release">
+    				Release Date:
+     				Friday, September 5, 2019
+					</h5>		
 					</li>
 				</ul>
-			</nav>
-		</header>
-	<section id="music">
-		<div class="container">
-			<div class="music_title">
-				<h2>MUSIC</h2>
+	    	</div>
+    	</div>
+	</div>
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				Copyright @2019 MGK
 			</div>
-			<div class="music flex">	
-			<ul>
-				<li><span class="music_item"><a href="#">LISTEN</a></span><img src="img/diablo.jpg" alt="album" width="250" height="250" class="song_img">
-				<h3 class="song_name">
-						HOTEL DIABLO
-				</h3>  
-					<pre class="release">
-     Release Date:
-     Friday, September 5, 2019
-					</pre>			
-		        </li>
-				<li><span class="music_item"><a href="#">LISTEN</a></span><img src="img/ok.jpg" alt="album" width="250" height="250" class="song_img">
-				<h3 class="song_name">
-						I THINK I'M OKEY
-				</h3>  
-					<pre class="release">
-     Release Date:
-     Friday, September 5, 2019
-					</pre>
-			    </li>
-				<li><span class="music_item"><a href="#">LISTEN</a></span><img src="img/break.jpg" alt="album" width="250" height="250" class="song_img">
-				<h3 class="song_name">
-						BREAK UP
-				</h3>  
-					<pre class="release">
-     Release Date:
-     Friday, September 5, 2019
-					</pre>	
-			    </li>
-				<li><span class="music_item"><a href="#">LISTEN</a></span><img src="img/whore.jpg" alt="album" width="250" height="250" class="song_img">
-				<h3 class="song_name">
-						HOLLYWOOD WHORE
-				</h3>  
-					<pre class="release">
-     Release Date:
-     Friday, September 5, 2019
-					</pre>
-				</li>		
-				<li><span class="music_item"><a href="#">LISTEN</a></span><img src="img/home.jpg" alt="album" width="250" height="250" class="song_img">
-				<h3 class="song_name">
-						HOME
-				</h3>  
-					<pre class="release">
-     Release Date:
-     Friday, September 5, 2019
-					</pre>		
-			    </li>
-				<li><span class="music_item"><a href="#">LISTEN</a></span><img src="img/young.jpg" alt="album" width="250" height="250" class="song_img">
-				<h3 class="song_name">
-						YOUNG MAN
-				</h3>  
-					<pre class="release">
-     Release Date:
-     Friday, September 5, 2019
-					</pre>		
-				</li>
-			</ul>
 		</div>
-	</section>
-<footer>
-    <span>
-		Copyright @2019 MGK
-	</span>
+	</div>
 </footer>
 </body>
 </head>

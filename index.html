@@ -1,141 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="cache.manifest">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/normalize.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Machine Gun Kelly</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/adapt.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-	<section class="first">
-		<header>
-			<nav class="container d-flex align-items-center">
-				<div class="logo">
-					LOGO
-				</div>
-				<ul class="menu d-flex">
-					<li class="menu_item">
-						<a href="#">MAIN</a>
-					</li>
-					<li class="menu_item">
-						<a href="music.html">MUSIC</a>
-					</li>
-					<li class="dropdown menu_item">
-						<a href="#">FOR FANS</a>
-						<div class="dropdown-content">
-                        <a href="#">FAN CLUB</a>
-                        <a href="#">TOUR SCHEDULE</a>
-                        <a href="#">LYRICS</a>
-					</li>
-					<li class="menu_item ">
-						<a href="#">FANS APPEAL</a>
-					</li>
-					<li class="menu_item">
-						<a href="#">CONCERT VENUE</a>
-					</li>
-					<li class="menu_item">
-						<a href="#">ADMIN</a>
-					</li>
-				</ul>
-				<!--<div class="auth d-flex align-items-center">
-					<div class="auth_img">
-						<img src="img/moon.jpg" alt="User profile" width="30" height="30" style="border-radius: 50%">
+<header>
+	<nav class="navbar navbar-expand-lg"> 
+	<a class="navbar-brand" style="color:white">LOGO</a>
+    <button class="navbar-toggler"data-toggle="collapse" data-target="#navbarNavDropdown">
+    <span class="btn">&#9776</span> 
+    </button>
+   	 <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-5">
+            <li class="nav-item active">
+                <a class="nav-link " href="index.html">MAIN</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="music.html">MUSIC</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="appeal.html">FANS APPEAL</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown">
+                    FOR FANS
+                </a>
+                <div class="dropdown-content" >
+                    <a class="dropdown-item" href="#">FAN CLUB</a>
+                    <a class="dropdown-item" href="schedule.html">TOUR SCHEDULE</a>
+                    <a class="dropdown-item" href="#">LYRICS</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="venue.html">CONCERT VENUE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="admin.html">ADMIN</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+	<div class="home">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 ">
+					<div class="mgk">
+						<img src="img/mgk1.png" width="460" height="515">
 					</div>
-					<h6 class="auth_name">
-						  Ilona
-					</h6>
-				</div>-->
-			</nav>
-		</header>
-		<div class="content">
-            <div class="container d-flex">
-				<div class="mgk">
-					<div class="mgk_img1">
-					     <img src="img/mgk1.png" alt="MGK" width="430" height="499">
-            			<div class="hotel_img">
-            				<img src="img/hotel.jpg" alt="Hotel Diablo" width="250" height="250">
-            			</div>
-            				<div class="ok_img">
-            					<img src="img/ok.jpg" alt="Album" width="250" height="250">
-            				</div>
-            			<div class="news_rect"></div>
-            			<pre class="mgk_tittle">   MACHINE 
-        GUN KELLY</pre>
-        <pre class="news_tittle" style="font-family: 'Montserrat', sans-serif;"> MGK ANNOUNCED THE 
-OFFICIAL RELEASE DATE </pre>
-       					 <pre class="news_text" style="font-family: 'Montserrat'">
-        The Cleveland rapper
-        posted a video of him
-        getting the album name
-        tattooed on the back of 
-        his head while his 
-        producer have been ...
-            			</pre>
-            			<span class="read_more">
-            				READ MORE >>
-            			</span>          			
 				</div>
-			</div>	
+				<div class="col-md-6">
+					<div class="home-cont">
+						<h1 class="home-cont__title" >
+							 MACHINE <br> GUN KELLY
+						</h1>
+					</div>
+				</div>
+			</div>
 		</div>
-		</section>
-<!--
-		<h2>
-			UPCOMING CONCERT
-		</h2>
-		<pre class="concert">
-		DATE
-
-
-		VENUE
-	</pre>
-	<pre class="concert_date">
-		             Friday, 15 September, 8:00 pm 
-
-		             
-		             Credit Union 1 Arena at UIC, Chicago, IL
-    </pre>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.8381539038023!2d-87.65844348511426!3d41.87482847922244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2ce012eac8c9%3A0x6f7cf75ba1eb83a8!2sCredit%20Union%201%20Arena!5e0!3m2!1sen!2sua!4v1568493858020!5m2!1sen!2sua" width="900" height="100" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-	<a href="#" class="button_buy">BUY A TICKET NOW!</a>
-	<div class="rect"></div>
-	<div class="rect"></div>
-	<div>
-	<input placeholder="      Write an appeal ...">
-    </div>
-    <a href="#" class="button_send">SEND</a>-->
-    <div class="mgk_img2">
-        <img src="img/third.jpg" alt="MGK" width="560" height="400">
-    </div>
-    <div class="bio"><pre class="bio_text">
-
-
-
-COLSON BAKER, KNOWN AS<span class="bio_mgk">
-MACHINE GUN KELLY</span> 
-AMERICAN RAPPER. ACTOR. 
-FROM CLEVELAND, OHIO.
-EMBARKED ON A MUSIAL CAREER AS A TEENAGER, 
-RELEASING A MIXTAPE IN 2006
-    </pre>
-    </div> 
-    <div class="diablo">
-    	<img src="img/diablo.jpg" alt="Album" width="400" height="400">
-    </div>
-    <div class="bio"><pre class="album_text">
-
-<span class="album">
-HOTEL DIABLO</span> 
-THE MOST CONSISTENT AND ENTHRALLING 
-RELEASE OF MGK ENTIRE DISCOGRAPHY.
-THIS ALBUM IS AS INSPIRING 
-AS IT INTROSPECTIVE, 
-AND AS SIMPLY ENTERTAINING 
-AS IT IS DEEPLY THOUGHT-PROVOKING
-    </pre>
-<footer>
-	<span>
-		Copyright @2019 MGK
-	</span>
-</footer>
+	</div>
+</header>
+	<div class="bio">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="bio-cont">
+						<p class="bio-cont__text1">
+						COLSON BAKER, KNOWN AS<br>
+                   		<span class="biog">MACHINE GUN KELLY <br></span>
+                        AMERICAN RAPPER. ACTOR. 
+                        FROM CLEVELAND, OHIO.
+                        EMBARKED ON A MUSICAL CAREER AS A TEENAGER, 
+                        RELEASING A MIXTAPE IN 2006 
+                        </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="top-cont">
+						<p class="top-cont__text2">
+						<span class="album">HOTEL DIABLO <br></span>THE MOST CONSISTENT AND ENTHRALLING RELEASE OF MGK ENTIRE DISCOGRAPHY.
+						THIS ALBUM IS AS INSPIRING 
+						AS IT INTROSPECTIVE, 
+						AND AS SIMPLY ENTERTAINING 
+						AS IT IS DEEPLY THOUGHT-PROVOKING
+    					</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					Copyright @2019 MGK
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
