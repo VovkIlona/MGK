@@ -1,0 +1,23 @@
+CACHE MANIFEST
+
+CACHE:
+error.html
+index.html
+music.html
+appeal.html
+venue.html
+admin.html
+css/adapt.css
+css/music.css
+css/venue.css
+css/appeal.css
+img/mgk1.png
+img/young.jpg
+img/whore.jpg
+img/ok.jpg
+
+NETWORK:
+*
+
+FALLBACK:
+/ error.html
